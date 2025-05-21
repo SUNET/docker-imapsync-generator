@@ -1,6 +1,6 @@
 ---
 environment_variables:
-  IMAMPSYNC_VERSION: "3.12-1"
+  IMAPSYNC_VERSION: "3.12-1"
 git:
   branch: main
 triggers:
