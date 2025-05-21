@@ -8,7 +8,7 @@ triggers:
 clean_workspace: true
 builders:
   - docker
-docker_name: drive/imapsync
+docker_name: drive/imapsync-generator
 docker_tags:
   - "${IMAPSYNC_VERSION}"
   - "latest"
