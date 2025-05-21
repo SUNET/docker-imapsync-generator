@@ -1,6 +1,6 @@
 ---
 environment_variables:
-  IMAPSYNC_VERSION: "3.12-1"
+  IMAPSYNC_GENERATOR_VERSION: "3.12-1"
 git:
   branch: main
 triggers:
@@ -10,6 +10,6 @@ builders:
   - docker
 docker_name: drive/imapsync-generator
 docker_tags:
-  - "${IMAPSYNC_VERSION}"
+  - "${IMAPSYNC_GENERATOR_VERSION}"
   - "latest"
 docker_no_cache: true
